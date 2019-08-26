@@ -23,8 +23,9 @@ electron_is_hard:
   description:
     For the last 6 great years we have worked in the field of Robotics, 
     Automation, Embedded System Development, Circuitry Development, 
-    Embedded Software Development, Prosthetic, Security Equipment Development, 
-    Lab Instruments, Embedded Product Design, Product Development, Product Support 
+    Embedded Software Development, Prosthetics, Security Equipment Development, 
+    Lab Instruments, Bio-Chemistry, Automobiles, Traffic Control,
+    Embedded Product Design, Product Development, Product Support 
     and much more…
 
 web_technologies:
@@ -42,8 +43,7 @@ open_source:
 cross_platform:
   title: Product Design
   description:
-    Experiance in all leading industries as Security, Bio-Chemistry, Automobiles,
-    Traffic Control, Industrial, Home and System Automations etc.
+    Designing products for all kind of Industial, Home and System Automations etc.
 
 benefits:
   hard_parts_made_easy: The hard parts made easy
