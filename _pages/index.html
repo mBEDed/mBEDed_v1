@@ -9,29 +9,10 @@ lang: en
 
   <div class="jumbotron jumbotron-home text-center">
     <div class="container">
-      {% include hero.html %}
+      <img alt="Header" src='{{ site.baseurl }}/images/Header.png'>
       <p class='jumbotron-lead'>
         {{ site.data.locale.tagline }}
       </p>
-    </div>
-  </div>
-
-  <div class="subtron py-4 text-center">
-    <div class="container">
-      <div id="electron-versions" class="electron-versions">
-
-        <!-- find current stable release version in full list of versions -->
-        {% for version in site.data.versions %}
-          {% if version.version == site.data.releases[0].version %}
-            {% assign indexOfCurrentVersion=forloop.index0 %}
-          {% endif %}
-        {% endfor %}
-
-        <span class="electron-versions-main">Electron: <strong>{{ site.data.releases[0].version }}</strong></span>
-        <span>Node: <strong>{{ site.data.versions[indexOfCurrentVersion].node }}</strong></span>
-        <span>Chromium: <strong>{{ site.data.versions[indexOfCurrentVersion].chrome }}</strong></span>
-        <span>V8: <strong>{{ site.data.versions[indexOfCurrentVersion].v8 }}</strong></span>
-      </div>
     </div>
   </div>
 
@@ -73,34 +54,24 @@ lang: en
 
       <div class="row text-center text-small mt-3">
         <div class='col-xs-12 col-sm-4 col-md-2 offset-md-1 mb-xs-4 mb-md-0 hero-feature'>
-          <a class="hero-link" href="{{ site.baseurl }}/docs/api/auto-updater/">
-            <span class="octicon hero-octicon octicon-squirrel" aria-hidden="true"></span>
+            <span class="octicon hero-octicon octicon-plug" aria-hidden="true"></span>
             {{ site.data.locale.benefits.automatic_updates }}
-          </a>
         </div>
         <div class='col-xs-12 col-sm-4 col-md-2 mb-xs-4 mb-md-0 hero-feature'>
-          <a class="hero-link" href="{{ site.baseurl }}/docs/api/menu/">
             <span class="octicon hero-octicon octicon-device-desktop" aria-hidden="true"></span>
             {{ site.data.locale.benefits.native_menus_and_notifications }}
-          </a>
         </div>
         <div class='col-xs-12 col-sm-4 col-md-2 mb-xs-4 mb-md-0 hero-feature'>
-          <a class="hero-link" href="{{ site.baseurl }}/docs/api/crash-reporter/">
             <span class="octicon hero-octicon octicon-bug" style="padding-left:2px" aria-hidden="true"></span>
             {{ site.data.locale.benefits.crash_reporting }}
-          </a>
         </div>
         <div class='col-xs-12 col-sm-4 offset-sm-2 col-md-2 offset-md-0 mb-xs-4 mb-md-0 hero-feature'>
-          <a class="hero-link" href="{{ site.baseurl }}/docs/api/content-tracing/">
             <span class="octicon hero-octicon octicon-tools" aria-hidden="true"></span>
             {{ site.data.locale.benefits.debugging_and_profiling }}
-          </a>
         </div>
         <div class='col-xs-12 col-sm-4 col-md-2 mb-xs-4 mb-md-0 hero-feature'>
-          <a class="hero-link" href="{{ site.baseurl }}/docs/api/auto-updater/#windows">
             <span class="octicon hero-octicon octicon-gift" style="padding-right:2px" aria-hidden="true"></span>
             {{ site.data.locale.benefits.windows_installers }}
-          </a>
         </div>
       </div>
 
