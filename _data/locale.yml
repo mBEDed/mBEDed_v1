@@ -1,48 +1,50 @@
-tagline: Build cross platform desktop apps with JavaScript, HTML, and CSS
+tagline: Research your ideas to come true, is all what we do.
 
 nav:
-  docs: Docs
-  blog: Blog
-  community: Community
-  apps: Apps
-  userland: Userland
-  releases: Releases
-  contact: Contact
+  docs: When
+  blog: What
+  community: Watch
+  apps: Why
+  userland: Who
+  releases: Which
+  contact: Where
 
 electron_is_easy:
   title: It's easier than you think
   description:
-    If you can build a website, you can build a desktop app. Electron is a
-    framework for creating native applications with web technologies like
-    JavaScript, HTML, and CSS. It takes care of the hard parts so you can
-    focus on the core of your application.
+  
+    For the last 6 great years we have worked in the field of Robotics, 
+    Automation, Embedded System Development, Circuitry Development, 
+    Embedded Software Development, Prosthetic, Security Equipment Development, 
+    Lab Instruments, Embedded Product Design, Product Development, Product Support 
+    and much more…
   video_link: Watch the video
 
 web_technologies:
-  title: Web Technologies
+  title: Embedded Software
   description:
-    Electron uses Chromium and Node.js so you can build your app with HTML,
-    CSS, and JavaScript.
+    All leading µControllers, sensors and interfacings to provide you innovative 
+    solutions in software development.
 
 open_source:
-  title: Open Source
-  desciption:
-    Electron is an open source project maintained by GitHub and an active
-    community of contributors.
+  title: Hardware Development
+  description:
+    Prestige Quality of PCBs in all kind of qulaties like single-side, 2-side, 
+    multilayer, flexible etc.
 
 cross_platform:
-  title: Cross Platform
+  title: Hardware Development
   description:
-    Compatible with Mac, Windows, and Linux, Electron apps build and run on
-    three platforms.
+    Prestige Quality of PCBs in all kind of qulaties like single-side, 2-side, 
+    multilayer, flexible etc.
 
 benefits:
   hard_parts_made_easy: The hard parts made easy
-  automatic_updates: Automatic updates
-  native_menus_and_notifications: Native menus & notifications
-  crash_reporting: Crash reporting
-  debugging_and_profiling: Debugging & profiling
-  windows_installers: Windows installers
+  automatic_updates: Real-Time Applications
+  native_menus_and_notifications: PC/Mobile Software
+  crash_reporting: Bug reporting
+  debugging_and_profiling: Support Services
+  windows_installers: Product Upgrading
 
 get_started:
   title: Get started
