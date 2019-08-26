@@ -28,7 +28,7 @@
 
     <nav class="site-header-nav">
       {% capture first_segment %}{{ page.url | remove_first: "/" | split: "/" | first }}{% endcapture %}
-      <a class="site-header-nav-item {% if first_segment == 'docs' %}active{% endif %}" href="{{ site.baseurl }}/docs/">{{ site.data.locale.nav.docs }}</a>
+      <a class="site-header-nav-item {% if first_segment == 'when' %}active{% endif %}" href="{{ site.baseurl }}/when/">{{ site.data.locale.nav.when }}</a>
       <a class="site-header-nav-item {% if first_segment == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/blog/">{{ site.data.locale.nav.blog }}</a>
       <a class="site-header-nav-item {% if first_segment == 'community' %}active{% endif %}" href="{{ site.baseurl }}/community/">{{ site.data.locale.nav.community }}</a>
       <a class="site-header-nav-item {% if first_segment == 'apps' %}active{% endif %}" href="{{ site.baseurl }}/apps/">{{ site.data.locale.nav.apps }}</a>
