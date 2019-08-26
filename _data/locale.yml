@@ -12,13 +12,20 @@ nav:
 electron_is_easy:
   title: It's easier than you think
   description:
-  
+    It was a late winter night everyone in the room was enjoying the
+	late night ‘chai’ prepared in an electric kettle, it is where we discussed 
+	the idea and with the ming boggling efforts of all id  started in that 
+	hostel room some year ago and the idea got wings.
+  video_link: Watch the video
+
+electron_is_hard:
+  title: It's easier than you think
+  description:
     For the last 6 great years we have worked in the field of Robotics, 
     Automation, Embedded System Development, Circuitry Development, 
     Embedded Software Development, Prosthetic, Security Equipment Development, 
     Lab Instruments, Embedded Product Design, Product Development, Product Support 
     and much more…
-  video_link: Watch the video
 
 web_technologies:
   title: Embedded Software
