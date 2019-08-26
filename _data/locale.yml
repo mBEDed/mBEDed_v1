@@ -1,4 +1,4 @@
-tagline: Research your <em>ideas</em> to come true, is all what we do.
+tagline: Research your <em>ideas</em> to come true, is all what we <em>do</em>.
 
 nav:
   docs: When
@@ -13,14 +13,14 @@ electron_is_easy:
   title: It's easier than you think
   description:
     It was a late winter night everyone in the room was enjoying the late night
-    ‘chai’ prepared in an electric kettle, it is where we discussed the idea
-    and with the mind boggling efforts of all this startup from that hostel room
-    came to an existance and the idea got wings.
+    ‘chai’ prepared in an electric kettle, it is where we discussed the <em>idea</em>
+    and with the mind boggling efforts of all this <em>startup</em> from that hostel room
+    came to an existance and the <em>idea</em> got wings.
 
 electron_is_hard:
   title: Our Achievements
   description:
-    For the last 6 great years we have worked in the field of Robotics, 
+    For the last <em>six</em> great years we have worked in the field of Robotics, 
     Automation, Embedded System Development, Circuitry Development, 
     Embedded Software Development, Prosthetics, Security Equipment Development, 
     Lab Instruments, Bio-Chemistry, Automobiles, Traffic Control,
