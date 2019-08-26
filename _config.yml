@@ -1,9 +1,9 @@
-title: Electron
-email: electron@github.com
-description: 'Build cross platform desktop apps with JavaScript, HTML, and CSS.'
-url: 'https://electron.atom.io'
-twitter_username: ElectronJS
-github_username: electron
+title: mBEDed µSystems
+email: mBEDedSystems@outlook.com
+description: ''
+url: 'https://mBEDed.systems'
+twitter_username: mbededsystems
+github_username: mBEDed
 future: true
 excerpt_separator: '---'
 gems:
@@ -35,7 +35,7 @@ include:
     - _pages
 google_site_verification: eOAFtDphTbbm4OPKva2d3Z0Z_2bBxWMGdkD0IRQ6VeA
 twitter:
-    username: ElectronJS
+    username: mbededsystems
 logo: /images/opengraph.png
 
 # github.com/untra/polyglot
