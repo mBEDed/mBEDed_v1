@@ -1,6 +1,6 @@
 {
   "slug": "edison",
-  "title": "Intel® Edison (Discontinued)",
-  "description": "The Intel® Edison module was a SoC with an Intel® Atom™ 500MHz dual-core, dual-threaded CPU and an Intel® Quark™ 100MHz µC, as well as Wi-Fi and Bluetooth® connectivity.",
+  "title": "IntelÂ® Edison (Discontinued)",
+  "description": "The IntelÂ® Edison module was a SoC with IntelÂ® Atomâ„¢ 500MHz dual-core, dual-threaded CPU and IntelÂ® Quarkâ„¢ 100MHz ÂµC, as well as Wi-Fi and BluetoothÂ® connectivity.",
   "link":	"https://software.intel.com/en-us/iot/home"
 }
