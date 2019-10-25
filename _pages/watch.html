@@ -1,0 +1,33 @@
+---
+title: Watch
+permalink: /watch/
+layout: default
+excerpt: Watch us in action.
+---
+
+
+<div class='subtron'>
+  <div class='container-narrow'>
+    <h1>Live in action</h1>
+    <p class="lead mb-3">
+      Some glimpse from the inside of our labs.
+    </p>
+  </div>
+</div>
+<section class='page-section'>
+  <div class='container'>
+    <ul class="report-list">
+    {% for thing in site.data.insta %}
+      {% for report in thing %}
+        {% if report.slug %}
+          <li>
+            <a href="https://instagram.com/mBEDedSystems" class="inner">
+              <img src="{{site.baseurl}}/images/insta/{{report.slug}}.jpg" alt="{{report.slug}} icon">
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </div>
+</section>
